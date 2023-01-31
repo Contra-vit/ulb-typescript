@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card } from './components/Card';
+import Card,  {CardVariant} from './components/Card';
 
 
 const App = () =>{
   return (
     <div>Work!
-      <Card width='200px' height='300px'>
+      <Card variant={CardVariant.primary} width='200px' height='300px'>
         <button>Press</button>
         <div>Rooom</div>
       </Card>
