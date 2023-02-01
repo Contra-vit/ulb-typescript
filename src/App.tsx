@@ -6,6 +6,7 @@ import axios from "axios";
 import List from "./components/List";
 import UserItem from "./components/UserItem";
 import TodoItem from "./components/TodoItem";
+import EventsExample from "./components/EventsExample";
 
 
 const App = () =>{
@@ -35,6 +36,8 @@ const App = () =>{
 
     return (
     <div>Work!
+        <EventsExample/>
+
       <Card onclick={ (num) => console.log('button Card work', num) } variant={CardVariant.primary} width='200px' height='300px'>
         <button>Press</button>
         <div>Rooom</div>
